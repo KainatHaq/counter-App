@@ -1,0 +1,94 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style the body */
+  body {
+    font-family: Arial, sans-serif;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c3e0d9;
+    margin: 0;
+  }
+  .container{
+    height: 25rem;
+    width: 30rem;
+    border:1px solid #333;
+    text-align: center;
+    margin-top: 10rem;
+    border-radius: 0.5rem;
+    background-color: rgb(232, 230, 205);
+  }
+  /* Container for the app */
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0b2ad6;
+    margin-top: 1rem;
+    
+  }
+  
+  /* Style for the counter */
+  #counter {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  /* Style buttons */
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 10px;
+    border: none;
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: rgb(245, 121, 27);
+    color: azure;
+  }
+  
+  button:hover {
+    background-color:   #f8e1e1;
+  }
+  
+  /* Specific styles for the increment and decrement buttons */
+  /* #increment {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  #decrement {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  #refresh {
+    background-color: #2196F3;
+    color: white;
+  } */
+  
+  /* Styling for the container (centered in the page) */
+  div {
+    text-align: center;
+  }
+  @media (max-width: 400px) {
+    h1{
+color: #000;
+        font-size: 2rem;
+        
+    }
+    #counter{
+        margin: 0.4rem;
+
+    }
+    
+    }
